@@ -1,0 +1,43 @@
+:root {
+    --bg: #003b6f;
+}
+html {
+    font-size: 62.5%;
+}
+img {
+    width: auto;
+    height: auto;
+}
+nav, footer {
+    background-color: #000000;
+    color: #eaeaea;
+}
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 4rem;
+    display: block;
+}
+.topnav a.icon {
+    background: #000000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.active {
+    background-color: #000000;
+    color: white;
+}
