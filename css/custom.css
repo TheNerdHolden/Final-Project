@@ -79,3 +79,70 @@ header h1 {
     padding-right: 5rem;
     padding-bottom: 4rem;
 }
+section {
+    max-width: 86vw;
+    display: grid;
+    margin: 3rem auto;
+    grid-gap: 3rem;
+}
+section.one {
+    grid-template-columns: 5fr 7fr;
+    /* swap the column numbers on this and other sections */
+}
+section.two {
+    grid-template-columns: 7fr 5fr;
+}
+div.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.more-links {
+    background-color: #000000;
+    color: #EAEAEA;
+    width: 16rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    border: 2px solid #EAEAEA;
+    opacity: .7;
+    transition: all .15s ease-in;
+}
+.more-links:hover {
+    opacity: 1;
+}
+
+section h2 {
+    font-size: 3.5rem;
+    font-family: "Quantico", sans-serif;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 1.75rem;
+}
+
+footer {
+    display: flex;
+    max-width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    section.two, section.one, section.three {
+        grid-template-columns: 1fr;
+    }
+    section.two div.pic {
+        order: -1;
+    }
+}
