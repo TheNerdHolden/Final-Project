@@ -86,11 +86,10 @@ section {
     grid-gap: 3rem;
 }
 section.one {
-    grid-template-columns: 5fr 7fr;
-    /* swap the column numbers on this and other sections */
+    grid-template-columns: 7fr 5fr;
 }
 section.two {
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 5fr 7fr;
 }
 div.text {
     display: flex;
