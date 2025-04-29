@@ -4,6 +4,12 @@
 html {
     font-size: 62.5%;
 }
+body {
+    background-color: var(--bg);
+    color: #d3cfcf;
+    font-size: 1.6rem;
+    font-family: 'Gentium Book Plus', serif;
+}
 img {
     width: auto;
     height: auto;
@@ -40,4 +46,36 @@ nav, footer {
 .active {
     background-color: #000000;
     color: white;
+}
+nav img {
+    height: 6rem;
+    width: auto;
+    border-radius: 50%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    gap: 2rem;
+}
+header {
+    max-width: 86vw;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin: auto;
+    text-align: center;
+    font-family: "Geo", sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+}
+header img {
+    height: 600;
+    width: auto;
+    margin: 0 auto;
+}
+header h1 {
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
 }
