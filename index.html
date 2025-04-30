@@ -57,40 +57,56 @@
 
             <section class="one">
                 <div class="slideshow-container">
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                         <div class="numbertext">1 / 6</div>
                         <img src="img/Fifteenth Doctor.jpg" alt="The Fifteenth Doctor" style="width:100%">
+                        <div class="slideText">The Fifteenth Doctor</div>
                     </div>
 
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                         <div class="numbertext">2 / 6</div>
                         <img src="img/First Doctor.jpg" alt="The First Doctor" style="width:100%">
+                        <div class="slideText">The First Doctor</div>
                     </div>
 
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                         <div class="numbertext">3 / 6</div>
                         <img src="img/Ninth Doctor.jpg" alt="The Ninth Doctor" style="width:100%">
+                        <div class="slideText">The Ninth Doctor</div>
                     </div>
 
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                         <div class="numbertext">4 / 6</div>
                         <img src="img/Fourteenth Doctor.jpg" alt="The Fourteenth Doctor" style="width:100%">
+                        <div class="slideText">The Fourteenth Doctor</div>
                     </div>
 
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                         <div class="numbertext">5 / 6</div>
                         <img src="img/Thirteenth Doctor.jpg" alt="The Thirteenth Doctor" style="width:100%">
+                        <div class="slideText">The Thirteenth Doctor</div>
                     </div>
 
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                         <div class="numbertext">6 / 6</div>
                         <img src="img/Tenth Doctor.jpg" alt="The Tenth Doctor" style="width:100%">
+                        <div class="slideText">The Tenth Doctor</div>
                     </div>
                     
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+                    <a class="prev" onclick="plusSlides(-1, 0, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0, 0)">&#10095;</a>
                 </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+
                 <div class="text">
                     <h2>Meet all the different incarnations of the Doctor spanning over 60 years!</h1>
                     <p>Learn about every Doctor and each of their regenerations.</p>
