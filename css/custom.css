@@ -39,7 +39,7 @@ nav, footer {
     right: 0;
     top: 0;
 }
-.topnav a:hover {
+.topnav a.icon:hover {
     background-color: #ddd;
     color: black;
 }
@@ -139,7 +139,7 @@ div.text {
     top: 0;
 }
 .active {
-    background-color: #717171;
+    background-color: #000000;
 }
 .fade {
     animation-name: fade;
