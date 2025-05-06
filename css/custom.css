@@ -85,7 +85,7 @@ section {
     margin: 3rem auto;
     grid-gap: 3rem;
 }
-section.one {
+section.one, section.three {
     grid-template-columns: 7fr 5fr;
 }
 section.two {
