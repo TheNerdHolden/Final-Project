@@ -177,11 +177,11 @@ section p {
     font-size: 1.75rem;
 }
 
-.grid {
+.grid1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem;
   }
   .card {
     /* Add shadows to create the "card" effect */
@@ -201,32 +201,32 @@ section p {
   }
   /* -- media queries for grid-- */
   @media screen and (max-width: 549px) {
-    .grid {
+    .grid1 {
       grid-template-columns: repeat(1, 1fr);
     }
   }
   @media screen and (min-width: 550px) {
-    .grid {
+    .grid1 {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   @media screen and (min-width: 768px) {
-    .grid {
+    .grid1 {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   @media screen and (min-width: 900px) {
-    .grid {
+    .grid1 {
       grid-template-columns: repeat(4, 1fr);
     }
   }
   @media screen and (min-width: 1280px) {
-    .grid {
+    .grid1 {
       grid-template-columns: repeat(4, 1fr);
     }
   }
   @media screen and (min-width: 1440px) {
-    .grid {
+    .grid1 {
       grid-template-columns: repeat(6, 1fr);
     }
   }
