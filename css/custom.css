@@ -58,6 +58,9 @@ nav img {
     font-size: 4rem;
     gap: 2rem;
 }
+a.home-button {
+    padding: 0;
+}
 header {
     max-width: 86vw;
     margin-top: 2rem;
@@ -123,8 +126,9 @@ div.text {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .slideText {
-    color: #f2f2f2;
-    font-size: 15px;
+    color: #003b6f;
+    font-size: 24px;
+    font-weight: bold;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -132,7 +136,7 @@ div.text {
     text-align: center;
 }
 .numbertext {
-    color: f2f2f2;
+    color: #816317;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -177,6 +181,10 @@ section p {
     font-size: 1.75rem;
 }
 
+section.one .slideText {
+    color: #797979;
+}
+
 .grid1, .grid2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -198,6 +206,11 @@ section p {
   .text-container {
     padding: 1rem;
     margin-bottom: 3rem;
+  }
+  .text-container h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
   }
   /* -- media queries for grid-- */
   @media screen and (max-width: 549px) {
