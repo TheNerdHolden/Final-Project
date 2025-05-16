@@ -177,7 +177,7 @@ section p {
     font-size: 1.75rem;
 }
 
-.grid1 {
+.grid1, .grid2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -201,27 +201,27 @@ section p {
   }
   /* -- media queries for grid-- */
   @media screen and (max-width: 549px) {
-    .grid1 {
+    .grid1, .grid2 {
       grid-template-columns: repeat(1, 1fr);
     }
   }
   @media screen and (min-width: 550px) {
-    .grid1 {
+    .grid1, .grid2 {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   @media screen and (min-width: 768px) {
-    .grid1 {
+    .grid1, .grid2 {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   @media screen and (min-width: 900px) {
-    .grid1 {
+    .grid1, .grid2 {
       grid-template-columns: repeat(4, 1fr);
     }
   }
   @media screen and (min-width: 1280px) {
-    .grid1 {
+    .grid1, .grid2 {
       grid-template-columns: repeat(4, 1fr);
     }
   }
